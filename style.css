@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f2f3eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+svg {
+  background-color: white;
+  display: block;
+}
+.radial-bars svg {
+  stroke: black;
+  stroke-width: 3;
+  height: 100vh;
+  max-height: 500px;
+  transform: rotate(0deg);
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+.hub {
+  stroke: yellow;
+  stroke-width: 12;
+}
+.bars {
+  stroke: red;
+  isolation: isolate;
+}
+.bar {
+  mix-blend-mode: multiply;
+}
+.bar:nth-child(16n+1) {
+  fill: #0000ff;
+}
+.bar:nth-child(16n+2) {
+  fill: #ff00ff;
+}
