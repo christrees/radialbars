@@ -18,6 +18,9 @@ svg {
   background-color: white;
   display: block;
 }
+text {
+  fill: black;
+}
 .radial-bars svg {
   stroke: black;
   stroke-width: 3;
