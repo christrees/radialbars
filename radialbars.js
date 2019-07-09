@@ -13,7 +13,7 @@ let rbObj = {
     center: '(150,150)',
     text: 'Click to Start',
     attr: { 
-      r: 50, 
+      r: 10, 
       fill: 'red',
       stroke: 'green',
       strokewidth: 3
